@@ -8,7 +8,15 @@
     --color-text: #333;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
 .form-wrapper {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,20 +102,7 @@
     border: 2px solid var(--color-error);
 }
 
-.deleteButton {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    background-color: var(--color-error);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-    margin-top: 20px;
-}
-
-.deleteButton:hover {
-    background-color: var(--color-error-hover);
+.cardContainer {
+    flex: 1;
+    margin-left: 20px;
 }
