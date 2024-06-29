@@ -1,0 +1,31 @@
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.error {
+    border: 2px solid #ff6666;
+}
