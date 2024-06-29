@@ -11,7 +11,7 @@ import Login from "./pages/login";
 import AuthRoutes from '../src/routes/AppRoutes.js';
 
 // ** Imports de contextos
-import { AuthProvider } from "../../dashboard/src/context/AuthContext";
+import { AuthProvider } from "./context/AuthContext";
 
 const App: React.FC = () => {
   return (
