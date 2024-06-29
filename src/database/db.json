@@ -6,12 +6,26 @@
       "nome": "João Pedro Aragão Galhardo",
       "cargo": "Desenvolvedor de software",
       "resumo": "teste"
+    },
+    {
+      "id": "8591",
+      "foto": "https://github.com/J0P3dro.png",
+      "nome": "João Pedro",
+      "cargo": "Desenvolvedor de software",
+      "resumo": "teste"
+    },
+    {
+      "id": "adca",
+      "foto": "https://github.com/J0P3dro.png",
+      "nome": "João Pedro",
+      "cargo": "Desenvolvedor de software",
+      "resumo": "teste"
     }
   ],
   "experiencia": [],
   "portifolio": [
     {
-      "id": 0,
+      "id": "0",
       "titulo": "Teste",
       "link": "https://google.com/",
       "imagem": "https://github.com/J0P3dro.png"
