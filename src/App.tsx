@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/login";
 
 // ** Imports de rotas
-import AuthRoutes from '../src/routes/AppRoutes.js';
+import AuthRoutes from '../src/routes/AppRoutes';
 
 // ** Imports de contextos
 import { AuthProvider } from "./context/AuthContext";
