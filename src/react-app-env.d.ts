@@ -7,6 +7,7 @@ declare namespace NodeJS {
     env: ProcessEnv
   }
   interface ProcessEnv {
+    VITE_API_URL: string | undefined
     /**
      * By default, there are two modes in Vite:
      * 
